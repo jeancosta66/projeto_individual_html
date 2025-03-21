@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas-vindas</title>
+    <script>
+        function mostrarMensagem() {
+            let nome = document.getElementById("nome").value;
+            document.getElementById("mensagem").innerText = "Bem - vindo " + nome + "!"; 
+            let telefone = document.getElementById("telefone").value;
+            document.getElementById("mensagem1").innerText = "Seu numero está salvo " + telefone + "!";
+        }
+    </script>
+    <style>
+        button {
+            background-color: #007bff;
+            calor: white;
+            border: none
+            padding: 10px 20px;
+            font-size: 16px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2> Digite seu nome:</h2>
+    <input type="text" id="nome">
+    <h3 id = "mensagem"></h3>
+    <!--telefone-->
+    <h2> Digite seu telefone:</h2>
+    <input type="text" id="telefone">
+    <br>
+    <br>
+    <button onclick="mostrarMensagem()">Enviar</button>
+    <h3 id = "mensagem1"></h3>
+</body>
+</html>
