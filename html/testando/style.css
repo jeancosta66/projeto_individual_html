@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(255, 0, 170);
+}
+h3 {
+    color:rgba(255, 153, 0, 0.795)
+}
+
+.fundo {
+    background-color: black;
+    border-radius: 10px ;
+    padding-left: 10px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
