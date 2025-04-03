@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(43, 36, 37);
+}
+p {
+    color: blue;
+}
+.cordafonte {
+    color: antiquewhite;
+}
+.cabecalho {
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
